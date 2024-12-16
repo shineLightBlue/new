@@ -1,0 +1,132 @@
+{{!-- <html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Nest.js with Tailwind</title>
+    <link href='/css/output.css' rel='stylesheet' />
+  </head>
+  <body class='bg-gray-100 text-gray-800'>
+    <div class='container mx-auto p-4'>
+      <h1 class='text-3xl font-bold underline'>Hello, Tailwind with Nest.js!</h1>
+      <p>这是一个结合了 Nest.js 和 Tailwind CSS 的页面。</p>
+    </div>
+    <div class='max-w-sm rounded overflow-hidden shadow-lg'>
+      <div class='px-6 py-4'>
+        <div class='font-bold text-xl mb-2'>Some title</div>
+        <p class='text-gray-700 text-base'>Some text</p>
+      </div>
+    </div>
+    <button
+      class='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'
+    >
+      Click me
+    </button>
+    <button
+      class='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'
+    >
+
+      Blue button
+
+    </button>
+
+    <button
+      class='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded'
+    >
+
+      Red button
+
+    </button>
+  </body>
+</html> --}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人简历</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans leading-normal tracking-normal">
+
+  <!-- 简历容器 -->
+  <div class="max-w-4xl mx-auto p-8">
+    <header class="text-center mb-8">
+      <h1 class="text-4xl font-bold text-gray-900">张三</h1>
+      <p class="text-xl text-gray-700 mt-2">前端开发工程师 | 5年经验</p>
+    </header>
+
+    <!-- 个人信息 -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+      <div>
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">个人信息</h2>
+        <ul class="space-y-2 text-gray-700">
+          <li><strong>电话:</strong> 138-0000-0000</li>
+          <li><strong>邮箱:</strong> example@example.com</li>
+          <li><strong>地址:</strong> 北京市海淀区</li>
+          <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/username" class="text-blue-600">linkedin.com/in/username</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">技能</h2>
+        <ul class="space-y-2 text-gray-700">
+          <li>JavaScript (React, Vue)</li>
+          <li>HTML / CSS (Tailwind CSS, Sass)</li>
+          <li>Node.js / Express</li>
+          <li>Git / GitHub</li>
+          <li>Responsive Web Design</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 工作经历 -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">工作经历</h2>
+      <div class="space-y-4">
+        <div>
+          <h3 class="text-xl font-semibold text-gray-800">前端开发工程师 - 公司A (2020-2024)</h3>
+          <ul class="space-y-2 text-gray-700">
+            <li>负责开发并维护企业内部管理系统的前端功能</li>
+            <li>使用 React 和 Vue 开发响应式应用</li>
+            <li>与产品经理和设计师密切合作，确保项目按时交付</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold text-gray-800">前端开发实习生 - 公司B (2018-2020)</h3>
+          <ul class="space-y-2 text-gray-700">
+            <li>协助开发网站页面，优化用户体验</li>
+            <li>参与前端开发任务的编码和调试</li>
+            <li>处理日常的前端Bug修复和改进</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 教育背景 -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">教育背景</h2>
+      <div>
+        <h3 class="text-xl font-semibold text-gray-800">计算机科学与技术 - 北京大学 (2014-2018)</h3>
+        <p class="text-gray-700">本科，主修计算机科学与技术，重点学习前端开发、算法、数据结构等课程。</p>
+      </div>
+    </section>
+
+    <!-- 项目经验 -->
+    <section>
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">项目经验</h2>
+      <div class="space-y-4">
+        <div>
+          <h3 class="text-xl font-semibold text-gray-800">企业管理系统</h3>
+          <p class="text-gray-700">一个用于企业内部员工管理和信息跟踪的系统，使用 React 和 Node.js 开发。</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold text-gray-800">在线商城</h3>
+          <p class="text-gray-700">一个响应式在线商城，支持商品浏览、购物车和支付功能，使用 Vue 和 Vuex 开发。</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
